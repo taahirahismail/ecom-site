@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taahirah's Bookstore</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="shortcut icon" href="./assets/img/book-store-logo.png" type="image/x-icon">
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,11 +20,139 @@
       href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
       rel="stylesheet"
     />
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div>
+      <!-- Header / NavBar -->
+      <div>
+        <head>
+          <nav class="navbar navbar-expand-lg bg-danger-subtle">
+            <div class="container-fluid">
+              <a
+                class="navbar-brand"
+                href="https://www.youtube.com/watch?v=G7RgN9ijwE4"
+                target="_blank"
+              >
+                <img
+                  src="https://i.postimg.cc/DwDJHVs4/book-store-logo.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </a>
+              <a class="navbar-brand" href="#">If Books Could Kill</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./assets/pages/about.html"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="./assets/pages/products.html"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="./assets/pages/products.html"
+                          >New</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="./assets/pages/products.html"
+                          >Popular</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="./assets/pages/products.html"
+                          >Our Recommendations</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="./assets/pages/products.html"
+                          >All Books</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-danger" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </head>
+      </div>
+      <!-- End of Header / NavBar -->
 
-    <script src="./script/index.js"></script>
+      <!-- Main -->
+      <div>
+        <main>
+            <div class="bg-img d-flex align-content-center justify-content-center">
+                <div class="card border-2 rounded-3 m-3 p-5 d-flex align-items-center justify-content-center big-text">
+                    Welcome to If Books Could Kill!
+                    <p>Look around the store, pick up a book (or don't, I'm not forcing you lol), or learn more about us!</p>
+                </div>
+            </div>
+        </main>
+      </div>
+      <!-- End of Main -->
+
+      <!-- Footer -->
+      <div>
+        <footer class="pt-3 pb-3 border-top text-center">
+          &copy; If Books Could Kill<br />
+          By Taahirah Ismail <br>
+          2023 <br>
+
+          <a href="#"><img src="./assets/img/envelope-solid.svg" alt="mail" class="icons"></a>
+          <a href="#"><img src="./assets/img/facebook-f.svg" alt="fb" class="icons-f"></a>
+          <a href="#"><img src="./assets/img/instagram.svg" alt="insta" class="icons"></a>
+          <a href="#"><img src="./assets/img/twitter.svg" alt="twt" class="icons"></a>
+        </footer>
+      </div>
+      <!-- End of Footer -->
+    </div>
+
+    <script src="./assets/script/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
