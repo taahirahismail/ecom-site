@@ -39,8 +39,12 @@ body {
 .big-text {
     font-size: 30px;
     width: 100%;
-    background-color: bisque !important;
-    opacity: 65%;
+    background-color: #ebb3a4 !important;
+    opacity: 0.9;
+}
+
+.home-btn {
+    opacity: 1;
 }
 
 /* about */
@@ -71,4 +75,15 @@ body {
 
 .card, .bg-blue {
     background: #ebb3a4 !important;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 670px) {
+    .products {
+        flex-direction: column;
+    }
+
+    .products-card {
+        width: 100%;
+    }
 }
